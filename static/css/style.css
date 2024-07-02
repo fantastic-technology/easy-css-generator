@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+body{
+    background-color: whitesmoke;
+    color: white;
+}
+/* #home */
+.demo{
+    font-size: xx-large;
+    background-color: white;
+    padding: 70px;
+    border-radius: 7px;
+    color: black;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+.title{
+    font-size: xx-large;
+    font-weight: bold;
+}
+nav{
+    background-color: rgb(65, 98, 231);
+    color: white;
+    display: flex;
+    font-size: larger;
+    align-items: center;
+    justify-content: space-around;
+    gap: 500px;
+    padding: 10px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.menu2 a:hover{
+    background-color: rgba(0, 0, 255, 0.137);
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+}
+/* #parameter */
+.examples{
+    font-size: medium;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 77.2%;
+}
+.code{
+    width: 20vw;
+    display: none;
+}
+.codevalue2{
+    display: flex;
+    flex-direction: column;
+}
+.code2{
+    width: 20vw;
+}
+.m1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 7px;
+}
+.p1{
+    display: flex;
+    flex-direction: column;
+}
+.list1{
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+.list2{
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+.p2{
+    display: flex;
+    flex-direction: column;
+}
+.range-bar{
+    display: flex;
+    gap: 20px;
+}
+.btn1{
+    padding: 10px;
+    border: none;
+}
+.btn2{
+    padding: 10px;
+    border: none;
+}
+.accordion{
+    display: flex;
+}
+.params{
+    display: flex;
+}
+.curly{
+    display: none;
+}
+/* #sidebar */
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    max-height: 90vh;
+    padding: 20px;
+    overflow-y: scroll;
+}
+.sidebar section{
+    border-bottom: thin solid grey;
+}
+.sidebar label{
+    font-weight: bold;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+/* #selects */
+.s1{
+    width: 15vw;
+    padding: 5px;
+    border-radius: 7px;
+}
+/* #labels */
+.l1{
+    gap: 150px;
+}
+.l2{
+    gap: 167px;
+}
+.l3{
+    gap: 195px;
+}
+.l4{
+    gap: 160px;
+}
+.l5{
+    gap: 140px;
+}
+.l6{
+    gap: 145px;
+}
+.l7{
+    gap: 157px;
+}
+.l8{
+    gap: 155px;
+}
+.l9{
+    gap: 155px;
+}
+.l10{
+    gap: 147px;
+}
+.l11{
+    gap: 143px;
+}
+.classgradient{
+        background: linear-gradient(
+          0deg,
+          rgba(15, 37, 110, 1) 12%,
+          rgba(32, 178, 7, 1) 84%
+        );
+        background-blend-mode: normal;
+}
+@media screen and (max-width: 950px) {
+    nav{
+        gap: 20px;
+    }
+    .examples{
+        font-size: medium;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        position: relative;
+        top: 350px;
+        background-color: black;
+        color: white;
+        padding: 20px;
+        width: 100%;
+    }
+    .home{
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: grey;
+        position: relative;
+        top: 500px;
+    }
+    .demo{
+        font-size: large;
+        background-color: white;
+        padding: 70px;
+        border-radius: 7px;
+        color: black;
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
